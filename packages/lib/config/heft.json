@@ -1,0 +1,9 @@
+{
+  "$schema": "https://developer.microsoft.com/en-us/json-schemas/heft/heft.schema.json",
+  "eventActions": [],
+  "heftPlugins": [
+    {
+      "plugin": "@rushstack/heft-jest-plugin"
+    }
+  ]
+}
