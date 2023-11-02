@@ -1,7 +1,13 @@
 {
+  "extends": "./node_modules/@rushstack/heft-node-rig/profiles/default/tsconfig-base.json",
+
   "compilerOptions": {
     /* Language and Environment */
     "target": "esnext" /* Set the JavaScript language version for emitted JavaScript and include compatible library declarations. */,
+    "types": [
+      "heft-jest", // <---- ADD THIS
+      "node"
+    ],
 
     /* Modules */
     "module": "NodeNext" /* Specify what module code is generated. */,

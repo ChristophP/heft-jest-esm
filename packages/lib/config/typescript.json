@@ -42,9 +42,9 @@
    *
    * The default value is "lib".
    */
-  "emitFolderNameForTests": "dist",
+  // "emitFolderNameForTests": "dist",
 
-  /**
+  /*R
    * If set to "true", the TSlint task will not be invoked.
    */
   // "disableTslint": true,
